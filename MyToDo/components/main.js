@@ -101,10 +101,6 @@ export default class Main extends Component {
           style={styles.addButton}>
           <Text style={styles.addButtonText}>Add</Text>
         </TouchableOpacity>
-        {/* <Button
-          title="Go back"
-          onPress={() => this.props.navigation.navigate('Home')}
-        /> */}
       </View>
     );
   }

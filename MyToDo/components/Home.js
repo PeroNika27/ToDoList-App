@@ -21,7 +21,6 @@ export default class Home extends Component {
             <Button
               title="My ToDoList"
               onPress={() => this.props.navigation.navigate('main')}
-              // color="#006064"
             />
           </TouchableHighlight>
         </View>
